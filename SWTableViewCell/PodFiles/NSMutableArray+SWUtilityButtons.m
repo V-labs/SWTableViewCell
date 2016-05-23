@@ -26,6 +26,8 @@
     button.backgroundColor = color;
     [button setAttributedTitle:title forState:UIControlStateNormal];
     [button setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    [button.titleLabel setNumberOfLines:0];
+    [button.titleLabel setTextAlignment:NSTextAlignmentCenter];
     [self addObject:button];
 }
 
